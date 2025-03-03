@@ -7,11 +7,8 @@ function refreshWeather(response) {
   let timeElement = document.querySelector("#time")
   let date = new Date(response.data.time * 1000)
   let iconElement = document.querySelector("#icon");
-  console.log(response.data)
 
   iconElement.innerHTML = `<img src="${response.data.condition.icon_url}" class=".weather-app-temperature-icon" />`;
-
-
   timeElement.innerHTML = formatDate(date);
   windSpeedElement.innerHTML = `${response.data.wind.speed}km/h`
   humidityElement.innerHTML = `${response.data.temperature.humidity}%`;
@@ -30,7 +27,7 @@ function formatDate(date) {
   if (hours < 10) {
     hours = `0${hours}`
   }
-  return `${day} ${hours}:${minutes}`
+  return `${day} ${hours}:${minutes},`
 }
 
 
