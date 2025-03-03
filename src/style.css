@@ -33,15 +33,16 @@ a{
   border-radius: 6px;
   width: 80%;
   padding: 15px 30px;
+  font-size: 16px;
 }
 .search-form-button{
   background-color: #ff347f;
-  padding: 15px 20px;
+  padding: 15px 30px;
   border:none;
   border-radius: 6px;
   color: white;
   margin-left: 5px;
-  font-size: 15px;
+  font-size: 16px;
   width: 15%;
 }
 .weather-app-data{
