@@ -68,12 +68,14 @@ color: rgba(39,33,66,0.4);
 }
 .weather-app-temperature-value{
   font-size: 88px;
-  font-weight: bold;
+  font-weight:bold;
   margin-left: 10px;
+  
 }
 .weather-app-temperature-icon{
-  font-size: 44px;
-  margin-top: 22px;
+  Width: 90px;
+  height: 90px;
+  margin-top: 12px;
 }
 .weather-app-temperature-unit{
   margin-top:16px ;
