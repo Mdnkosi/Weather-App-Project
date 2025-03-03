@@ -14,23 +14,30 @@
 <body>
   <div class="weather-app">
   <header>
-    <form>
-      <input type="search" placeholder="Enter a city..." required>
-      <input type="submit" value="search">
+    <form class="search-form">
+      <input type="search" placeholder="Enter a city..." required class="search-form-input">
+      <input type="submit" value="search" class="search-form-button">
     </form>
   </header>
   <main>
-<h1>
+    <div class="weather-app-data">
+      <div>
+<h1 class="weather-app-city">
   Polokwane
 </h1>
-<p>
+
+<p class="weather-app-details">
   Tuesday 14:50, Scattered clouds
   <br>
-  Humidity: 58%, Wind: 5,19km/h
-  <h></h>
+  Humidity: <strong>58%</strong>, Wind: <strong>5.19km/h</strong>
 </p>
-<div>
-  🌤️18°C
+</div>
+<div class="weather-app-temperature-container">
+  <div class="weather-app-temperature-icon">🌤️</div>
+  <div class="weather-app-temperature-value">18</div>
+  <div class="weather-app-temperature-unit">°C</div>
+ 
+</div>
 </div>
   </main>
   
