@@ -9,7 +9,7 @@ header{
   padding:0 0 30px 0;
 }
 main{
-  padding: 30px;
+  padding: 15px;
 }
 footer{
   border-top: 1px solid #e7eaf6;
@@ -22,13 +22,12 @@ a{
   color:#ff347f
 }
 .weather-app{
-  background-color: white;
   max-width: 600px;
   margin: 45px auto;
   padding: 30px;
   border-radius: 15px;
   box-shadow: 0 30px 50px rgba(65,50, 100, 0.3);
-background: linear-gradient(178.6deg, rgb(20, 36, 50) 11.8%, rgb(124, 143, 161) 83.8%);
+  background: linear-gradient(178.6deg, rgb(20, 36, 50) 11.8%, rgb(124, 143, 161) 83.8%);
 }
 .search-form-input{
   background-color: #e7eaf6;
@@ -39,7 +38,6 @@ background: linear-gradient(178.6deg, rgb(20, 36, 50) 11.8%, rgb(124, 143, 161) 
   font-size: 16px;
 }
 .search-form-button{
-  background-color: #ff347f;
   padding: 15px 15px;
   border:none;
   border-radius: 6px;
@@ -61,7 +59,6 @@ background: linear-gradient(178.6deg, rgb(20, 36, 50) 11.8%, rgb(124, 143, 161) 
 .weather-app-details{
 font-size: 16px;
 line-height: 24px;
-color: rgba(39,33,66,0.4);
 color:white;
 }
 .weather-app-details strong{
