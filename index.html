@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,50 +10,49 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Geologica:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+IT+Moderna:wght@100..400&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
-    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+  <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
   <title>Weather App Project</title>
 </head>
+
 <body>
   <div class="weather-app">
-  <header>
-    <form class="search-form" id="search-form">
-      <input type="search"
-       placeholder="Enter a city..." 
-       required
-       id="search-form-input" 
-       class="search-form-input">
-      <input type="submit" value="search" class="search-form-button">
-    </form>
-  </header>
-  <main>
-    <div class="weather-app-data">
-      <div>
-<h1 class="weather-app-city" id="city">
-</h1>
+    <header>
+      <form class="search-form" id="search-form">
+        <input type="search" placeholder="Enter a city..." required id="search-form-input" class="search-form-input">
+        <input type="submit" value="search" class="search-form-button">
+      </form>
+    </header>
+    <main>
+      <div class="weather-app-data">
+        <div>
+          <h1 class="weather-app-city" id="city">
+          </h1>
 
-<p class="weather-app-details">
-  <span id="time"></span> 
-  <span id="description"></span>
-  <br>
-  Humidity: <strong id="humidity"></strong>, Wind: <strong id="wind-speed"></strong>
-</p>
-</div>
-<div class="weather-app-temperature-container">
-    <div class="weather-app-temperature-icon" id="icon">
-    </div>
-  <div class="weather-app-temperature-value" id="temperature"></div>
-  <div class="weather-app-temperature-unit">°C</div>
- 
-</div>
-</div>
-  </main>
-  
-  <footer>
-   This project was coded by <a href="https://github.com/Mdnkosi" target="_blank">Mahlatse Nkosi</a>, 
-    is open-sourced on <a href="https://github.com/Mdnkosi/Weather-App-Project" target="_blank">GitHub</a>
-    and hosted on <a href="https://helpful-piroshki-5ff1d6.netlify.app/" target="_blank">Netlify</a>
-  </footer>
+          <p class="weather-app-details">
+            <span id="time"></span>
+            <span id="description"></span>
+            <br>
+            Humidity: <strong id="humidity"></strong>, Wind: <strong id="wind-speed"></strong>
+          </p>
+        </div>
+        <div class="weather-app-temperature-container">
+          <div class="weather-app-temperature-icon" id="icon">
+          </div>
+          <div class="weather-app-temperature-value" id="temperature"></div>
+          <div class="weather-app-temperature-unit">°C</div>
+
+        </div>
+      </div>
+      <div class="weather-forecast" id="forecast"></div>
+    </main>
+
+    <footer>
+      This project was coded by <a href="https://github.com/Mdnkosi" target="_blank">Mahlatse Nkosi</a>,
+      is open-sourced on <a href="https://github.com/Mdnkosi/Weather-App-Project" target="_blank">GitHub</a>
+      and hosted on <a href="https://helpful-piroshki-5ff1d6.netlify.app/" target="_blank">Netlify</a>
+    </footer>
   </div>
   <script src="src/java.js"></script>
 </body>
+
 </html>
